@@ -4,4 +4,6 @@ Congrats, you've made it through a whole month of bootcamp! Time to put your new
 
 Work hard and commit often!
 
+If you lose track of this, here's the [link](https://rgregg2014.github.io/projectOneResources/)!
+
 -Rae
