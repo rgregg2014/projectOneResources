@@ -8,20 +8,21 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Assets/styles.css" />
     <title>Resources for Project One</title>
   </head>
   <body>
-    <section class="hero">
-      <div class="hero-body">
-        <p class="title">Project One</p>
-        <p class="subtitle">
-          You've learned a lot, so it's time to put it to use. Below are a list
-          of resources I've found helpful in the past. 
-        </p>
-      </div>
-    </section>
+  <header class="top">
+      <h1 class="title">Project Resources</h1>
+      <p class="subtitle">You've learned a lot. So it's time to put it to good use! Here's a list of resources I've found while working on my own projects.</p>
+  </header>
+  <main>
     <!-- Super Cool APIs -->
+    <div class="resource-card" id="top-card">
     <section class="section">
       <h2 class="title">Where to Find APIs</h2>
       <h3 class="subtitle">
@@ -49,7 +50,9 @@
         surprised what's out there.
       </h3>
     </section>
+  </div>
     <!-- Different CSS Frameworks -->
+    <div class="resource-card">
     <section class="section">
       <h2 class="title">CSS Frameworks</h2>
       <h3 class="subtitle">
@@ -78,7 +81,9 @@
         It also doesn't have a colums system like MaterializeCSS or Bulma.
       </h3>
     </section>
+  </div>
     <!-- Design Stuff -->
+    <div class="resource-card">
     <section class="section">
       <h2 class="title">Design Help</h2>
       <h3 class="subtitle">
@@ -107,7 +112,9 @@
         Because if I see Comic Sans on your website, I will scream.
       </h3>
     </section>
+  </div>
     <!-- Mastering VS Code -->
+    <div class="resource-card">
     <section class="section">
       <h2 class="title">Mastering VS Code</h2>
       <h3 class="subtitle">
@@ -133,7 +140,9 @@
         >are the keyboard shortcuts for Mac in VS Code.
       </h3>
     </section>
+  </div>
     <!-- Youtube videos -->
+    <div class="resource-card">
     <section class="section">
       <h2 class="title">Helpful YouTube Videos</h2>
       <h3 class="subtitle">
@@ -184,7 +193,9 @@
         files to the next level and learn some markdown.
       </h3>
     </section>
+  </div>
     <!-- Projects from My Cohort -->
+    <div class="resource-card">
     <section class="section">
       <h2 class="title">Other Projects:</h2>
       <h3 class="subtitle">
@@ -218,9 +229,11 @@
         to keep track of your favorite publicly traded companies and the current
         price of their stock.
       </h4>
-      <footer class="footer">
-        <div class="content has-text-centered">
-          <p>
+    </div>
+    </main>
+      <footer>
+        <div class="content has-text-centered bottom">
+          <p class="subtitle">
           Find something else you'd like to share? Clone down the <a href="https://github.com/rgregg2014/projectOneResources" target="blank">repo</a> and make a pull request.
           </p>
         </div>

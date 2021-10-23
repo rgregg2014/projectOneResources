@@ -2,3 +2,57 @@
   box-sizing: border-box;
   /* border: 1px solid red; */
 }
+
+body {
+  background-color: rgb(231, 231, 231);
+}
+
+.top h1 {
+  line-height: 1.5;
+  font-family: "Padauk", sans-serif;
+}
+
+.top p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.resource-card {
+  border: 1px solid gray;
+  box-shadow: 10px 5px 5px darkgray;
+  margin: 10%;
+  background-color: white;
+}
+
+.resource-card h2 {
+  line-height: 1.5;
+  font-family: "Padauk", sans-serif;
+}
+
+.resource-card h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.resource-card h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.top {
+  text-align: center;
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  padding: 5%;
+}
+
+.bottom {
+  padding-bottom: 2%;
+  font-family: "Montserrat", sans-serif;
+}
+
+#top-card {
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
